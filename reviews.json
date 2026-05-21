@@ -13,8 +13,21 @@
         "type": "semi-private"
       },
       "rating": 5,
-      "comment": "Excellent room. Clean, quiet and very comfortable. The attached bathroom is a big plus.",
-      "created_at": "2026-04-10T00:00:00Z"
+      "title": "Best student housing in Sylhet!",
+      "comment": "Excellent room. Clean, quiet and very comfortable. The attached bathroom is a big plus. The WiFi speed is incredible and the staff is always helpful. Would definitely recommend to any student looking for accommodation near SUST.",
+      "pros": ["Clean rooms", "Fast WiFi", "Helpful staff", "Good location"],
+      "cons": [],
+      "tags": ["recommended", "long-stay", "value-for-money"],
+      "stay_duration": "4 months",
+      "stay_period": "Jan 2026 - Apr 2026",
+      "helpful_count": 12,
+      "response": {
+        "from": "Abdul Karim (Manager)",
+        "message": "Thank you Tanvir! We're glad you enjoyed your stay. You're always welcome back at SylhetStay.",
+        "responded_at": "2026-04-11T10:00:00Z"
+      },
+      "created_at": "2026-04-10T00:00:00Z",
+      "verified": true
     },
     {
       "id": 2,
@@ -29,8 +42,104 @@
         "type": "semi-private"
       },
       "rating": 4,
-      "comment": "Good value for money. WiFi is fast and staff are helpful. Would stay again.",
-      "created_at": "2026-03-05T00:00:00Z"
+      "title": "Great value for the price",
+      "comment": "Good value for money. WiFi is fast and staff are helpful. Would stay again. The only minor issue is that the common kitchen could be better equipped.",
+      "pros": ["Affordable", "Fast internet", "Friendly environment"],
+      "cons": ["Kitchen equipment could be improved"],
+      "tags": ["good-value", "recommended"],
+      "stay_duration": "3 months",
+      "stay_period": "Mar 2026 - May 2026",
+      "helpful_count": 5,
+      "response": {
+        "from": "Fatema Begum (Front Desk Supervisor)",
+        "message": "Thank you Hasibur! We appreciate your feedback about the kitchen. We're planning to upgrade the kitchen equipment next month.",
+        "responded_at": "2026-03-06T09:00:00Z"
+      },
+      "created_at": "2026-03-05T00:00:00Z",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 8,
+        "name": "Sabrina Akter",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100"
+      },
+      "room": {
+        "id": 3,
+        "name": "Premium Single Room",
+        "type": "premium-single"
+      },
+      "rating": 5,
+      "title": "Worth every taka!",
+      "comment": "The premium room is worth every taka. Clean, quiet, air-conditioned and the staff are super responsive. I feel safe and comfortable here. The study lounge is amazing for late-night study sessions.",
+      "pros": ["AC room", "Privacy", "Safe environment", "Study lounge"],
+      "cons": [],
+      "tags": ["premium", "recommended", "comfortable"],
+      "stay_duration": "3 months",
+      "stay_period": "Feb 2026 - May 2026",
+      "helpful_count": 8,
+      "response": null,
+      "created_at": "2026-03-22T00:00:00Z",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 12,
+        "name": "Muntasir Billah",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100"
+      },
+      "room": {
+        "id": 1,
+        "name": "Shared Dormitory Room",
+        "type": "shared"
+      },
+      "rating": 4,
+      "title": "Best budget option in town",
+      "comment": "Best budget hostel in Sylhet. The shared room is clean and my roommates are friendly. The study lounge helped me ace my exams! Only wish the shared bathroom had more frequent cleaning.",
+      "pros": ["Budget friendly", "Clean", "Good atmosphere", "Study lounge"],
+      "cons": ["Shared bathroom cleaning frequency"],
+      "tags": ["budget", "student-friendly", "community"],
+      "stay_duration": "4 months",
+      "stay_period": "Mar 2026 - Jun 2026",
+      "helpful_count": 15,
+      "response": {
+        "from": "Rakibul Islam (Maintenance Head)",
+        "message": "Thank you Muntasir! We've increased bathroom cleaning to 3 times daily based on resident feedback. Let us know if things improve!",
+        "responded_at": "2026-04-20T11:00:00Z"
+      },
+      "created_at": "2026-02-14T00:00:00Z",
+      "verified": true
+    },
+    {
+      "id": 5,
+      "user": {
+        "id": 7,
+        "name": "Arafat Islam",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100"
+      },
+      "room": {
+        "id": 3,
+        "name": "Premium Single Room",
+        "type": "premium-single"
+      },
+      "rating": 3,
+      "title": "Good but room for improvement",
+      "comment": "The room itself was nice and clean. However, I had some issues with noise from the construction on the floor above. The staff handled it well but it did affect my stay.",
+      "pros": ["Clean room", "Good amenities", "Responsive staff"],
+      "cons": ["Noise during construction", "No early check-in flexibility"],
+      "tags": ["honest-review", "improvement-needed"],
+      "stay_duration": "2 months",
+      "stay_period": "Jan 2026 - Feb 2026",
+      "helpful_count": 3,
+      "response": {
+        "from": "Abdul Karim (Manager)",
+        "message": "We apologize for the inconvenience Arafat. The construction has been completed now and we've added soundproofing to affected rooms.",
+        "responded_at": "2026-02-20T10:00:00Z"
+      },
+      "created_at": "2026-02-10T00:00:00Z",
+      "verified": true
     }
   ],
   "summary": {
@@ -42,6 +151,17 @@
       "3": 3,
       "2": 1,
       "1": 0
-    }
+    },
+    "average_rating_by_room_type": {
+      "shared": 4.2,
+      "semi-private": 4.5,
+      "premium-single": 4.8
+    },
+    "top_tags": [
+      "recommended",
+      "good-value",
+      "comfortable",
+      "student-friendly"
+    ]
   }
 }

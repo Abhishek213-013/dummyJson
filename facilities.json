@@ -4,12 +4,14 @@
     "category": "Living & Comfort",
     "name": "Air Conditioning",
     "description": "Climate control in all premium rooms",
+    "long_description": "Split-type air conditioners in all premium and semi-private rooms ensure a comfortable temperature year-round. Units are serviced monthly.",
     "icon": "wind",
     "image": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=600",
     "available_in": [
       "premium-single",
       "semi-private"
     ],
+    "operating_hours": "24/7 (individual room control)",
     "is_active": true
   },
   {
@@ -17,6 +19,7 @@
     "category": "Living & Comfort",
     "name": "High-Speed WiFi",
     "description": "Fiber optic 1 Gbps internet throughout the hostel",
+    "long_description": "Fiber optic broadband connection with 1 Gbps speed. Dual-band WiFi routers on every floor ensure seamless connectivity in all rooms and common areas.",
     "icon": "wifi",
     "image": "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=600",
     "available_in": [
@@ -24,6 +27,13 @@
       "semi-private",
       "premium-single"
     ],
+    "operating_hours": "24/7",
+    "specs": {
+      "speed": "1 Gbps",
+      "type": "Fiber Optic",
+      "provider": "Bangladesh Telecom",
+      "backup": "4G failover"
+    },
     "is_active": true
   },
   {
@@ -31,6 +41,7 @@
     "category": "Living & Comfort",
     "name": "Natural Lighting",
     "description": "Large windows in every room for fresh air and sunlight",
+    "long_description": "All rooms feature large windows that provide ample natural light during the day and cross-ventilation for fresh air circulation.",
     "icon": "sun",
     "image": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=600",
     "available_in": [
@@ -38,6 +49,7 @@
       "semi-private",
       "premium-single"
     ],
+    "operating_hours": "Daytime (natural)",
     "is_active": true
   },
   {
@@ -45,6 +57,7 @@
     "category": "Living & Comfort",
     "name": "Premium Bedding",
     "description": "Comfortable mattresses and pillows provided",
+    "long_description": "Each resident is provided with a high-quality foam mattress, hypoallergenic pillow, and fresh bedding set. Bedding is washed weekly.",
     "icon": "bed",
     "image": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=600",
     "available_in": [
@@ -52,6 +65,7 @@
       "semi-private",
       "premium-single"
     ],
+    "operating_hours": "Included with room",
     "is_active": true
   },
   {
@@ -59,12 +73,30 @@
     "category": "Dining & Kitchen",
     "name": "Dining Hall",
     "description": "Spacious dining area serving 3 meals a day",
+    "long_description": "Our spacious dining hall can accommodate 50+ residents. We serve breakfast, lunch, and dinner daily with a rotating menu featuring both Bangladeshi and continental dishes.",
     "icon": "utensils",
     "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600",
     "available_in": [
       "shared",
       "semi-private",
       "premium-single"
+    ],
+    "operating_hours": {
+      "breakfast": "7:00 AM - 9:00 AM",
+      "lunch": "12:00 PM - 2:00 PM",
+      "dinner": "7:00 PM - 9:00 PM"
+    },
+    "meal_plan_options": [
+      {
+        "name": "Full Meal Plan",
+        "price_per_month": 4500,
+        "includes": ["Breakfast", "Lunch", "Dinner"]
+      },
+      {
+        "name": "Half Meal Plan",
+        "price_per_month": 3000,
+        "includes": ["Lunch", "Dinner"]
+      }
     ],
     "is_active": true
   },
@@ -73,6 +105,7 @@
     "category": "Dining & Kitchen",
     "name": "Common Kitchen",
     "description": "Fully equipped shared kitchen with microwave, stove & utensils",
+    "long_description": "Self-service common kitchen equipped with gas stoves, rice cookers, microwave ovens, refrigerators, and all essential cooking utensils. Residents can cook their own meals anytime.",
     "icon": "coffee",
     "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
     "available_in": [
@@ -80,19 +113,39 @@
       "semi-private",
       "premium-single"
     ],
+    "operating_hours": "6:00 AM - 11:00 PM",
+    "equipment": [
+      "Gas stove (4 burners)",
+      "Rice cooker",
+      "Microwave oven",
+      "Refrigerator",
+      "Electric kettle",
+      "Cooking utensils",
+      "Dining sets"
+    ],
     "is_active": true
   },
   {
     "id": 7,
     "category": "Recreation & Fitness",
     "name": "Fitness Center",
-    "description": "Modern gym equipment open 6 AM \u2013 10 PM",
+    "description": "Modern gym equipment open 6 AM - 10 PM",
+    "long_description": "Our on-site fitness center is equipped with modern cardio and strength training equipment. Open daily for all residents.",
     "icon": "dumbbell",
     "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600",
     "available_in": [
       "shared",
       "semi-private",
       "premium-single"
+    ],
+    "operating_hours": "6:00 AM - 10:00 PM",
+    "equipment": [
+      "Treadmills (2)",
+      "Exercise bikes (2)",
+      "Dumbbell set (2-50 kg)",
+      "Bench press",
+      "Pull-up bar",
+      "Yoga mats"
     ],
     "is_active": true
   },
@@ -101,12 +154,22 @@
     "category": "Recreation & Fitness",
     "name": "Entertainment Room",
     "description": "Smart TV, gaming consoles and comfortable seating",
+    "long_description": "Dedicated entertainment room with a 55-inch Smart TV, gaming consoles (PS5, Xbox), board games, and comfortable seating for residents to unwind.",
     "icon": "tv",
     "image": "https://images.unsplash.com/photo-1489599746744-5bace50f4768?w=600",
     "available_in": [
       "shared",
       "semi-private",
       "premium-single"
+    ],
+    "operating_hours": "10:00 AM - 11:00 PM",
+    "equipment": [
+      "55-inch Smart TV",
+      "PlayStation 5",
+      "Xbox Series X",
+      "Board games",
+      "Card games",
+      "Bookshelf"
     ],
     "is_active": true
   },
@@ -115,12 +178,22 @@
     "category": "Study & Work",
     "name": "Study Lounge",
     "description": "Quiet, air-conditioned study environment with desks",
+    "long_description": "A dedicated quiet zone with individual study carrels, group study tables, whiteboards, and high-speed WiFi. Open 24/7 for residents who need a focused study environment.",
     "icon": "book-open",
     "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600",
     "available_in": [
       "shared",
       "semi-private",
       "premium-single"
+    ],
+    "operating_hours": "24/7",
+    "capacity": 20,
+    "features": [
+      "Individual study carrels",
+      "Group study tables",
+      "Whiteboards",
+      "Printing station",
+      "High-speed WiFi"
     ],
     "is_active": true
   },
@@ -129,6 +202,7 @@
     "category": "Study & Work",
     "name": "Power Backup",
     "description": "24/7 generator backup for uninterrupted power supply",
+    "long_description": "Diesel generator with automatic transfer switch ensures uninterrupted power supply during load shedding. All rooms, WiFi, and common areas remain powered.",
     "icon": "zap",
     "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600",
     "available_in": [
@@ -136,6 +210,13 @@
       "semi-private",
       "premium-single"
     ],
+    "operating_hours": "24/7 (automatic)",
+    "specs": {
+      "type": "Diesel Generator",
+      "capacity": "50 kVA",
+      "fuel_backup_hours": 12,
+      "switchover_time": "Less than 10 seconds"
+    },
     "is_active": true
   },
   {
@@ -143,12 +224,22 @@
     "category": "Services & Security",
     "name": "24/7 Security",
     "description": "CCTV surveillance and on-site security personnel around the clock",
+    "long_description": "Comprehensive security system with 24/7 CCTV monitoring, biometric access control at all entry points, and trained security personnel on-site at all times.",
     "icon": "shield",
     "image": "https://images.unsplash.com/photo-1580137189272-c9379f8864fd?w=600",
     "available_in": [
       "shared",
       "semi-private",
       "premium-single"
+    ],
+    "operating_hours": "24/7",
+    "features": [
+      "CCTV cameras (32 channels)",
+      "Biometric access control",
+      "Security guards (3 shifts)",
+      "Visitor registration system",
+      "Fire alarms & sprinklers",
+      "Emergency exit signage"
     ],
     "is_active": true
   },
@@ -157,6 +248,7 @@
     "category": "Services & Security",
     "name": "Laundry Service",
     "description": "Washing machines and dryers available on every floor",
+    "long_description": "Self-service laundry facilities with washing machines and dryers on each residential floor. Detergent and fabric softener available at the front desk.",
     "icon": "washing-machine",
     "image": "https://images.unsplash.com/photo-1545173168-9f1c6e193c3b?w=600",
     "available_in": [
@@ -164,6 +256,100 @@
       "semi-private",
       "premium-single"
     ],
+    "operating_hours": "6:00 AM - 11:00 PM",
+    "details": {
+      "machines_per_floor": 2,
+      "cost_per_load": "Free for residents",
+      "detergent_provided": true,
+      "ironing_board": true
+    },
+    "is_active": true
+  },
+  {
+    "id": 13,
+    "category": "Recreation & Fitness",
+    "name": "Rooftop Terrace",
+    "description": "Open-air rooftop with city view and seating",
+    "long_description": "Our newly added rooftop terrace offers panoramic views of Sylhet city. Furnished with outdoor seating, it's the perfect spot for evening relaxation or group study sessions.",
+    "icon": "sunrise",
+    "image": "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "operating_hours": "6:00 AM - 11:00 PM",
+    "features": [
+      "Panoramic city view",
+      "Outdoor seating (20 seats)",
+      "Garden area",
+      "Evening lighting"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 14,
+    "category": "Services & Security",
+    "name": "Parking",
+    "description": "Secure parking for bicycles and motorcycles",
+    "long_description": "Covered parking area with CCTV surveillance for bicycles, motorcycles, and small vehicles. Bike racks and designated motorcycle spots available.",
+    "icon": "parking-circle",
+    "image": "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "operating_hours": "24/7",
+    "capacity": {
+      "bicycles": 20,
+      "motorcycles": 15,
+      "cars": 5
+    },
+    "is_active": true
+  },
+  {
+    "id": 15,
+    "category": "Services & Security",
+    "name": "Prayer Room",
+    "description": "Clean and quiet prayer facility for all residents",
+    "long_description": "A dedicated prayer room on the ground floor with separate areas for male and female residents. Carpeted, air-conditioned, and maintained in pristine condition.",
+    "icon": "mosque",
+    "image": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "operating_hours": "24/7",
+    "features": [
+      "Separate male/female sections",
+      "Wudu area",
+      "Prayer mats provided",
+      "Quran copies available"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 16,
+    "category": "Living & Comfort",
+    "name": "Housekeeping",
+    "description": "Daily cleaning of rooms and common areas",
+    "long_description": "Professional housekeeping team cleans all common areas daily. Room cleaning is provided weekly with optional additional cleaning on request.",
+    "icon": "spray-can",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "operating_hours": "9:00 AM - 5:00 PM",
+    "schedule": {
+      "common_areas": "Daily",
+      "rooms": "Weekly (included)",
+      "deep_cleaning": "Monthly (included)",
+      "bedding_change": "Weekly"
+    },
     "is_active": true
   }
 ]

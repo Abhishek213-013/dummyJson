@@ -1,55 +1,145 @@
 {
   "section": "home",
+  "seo": {
+    "meta_title": "SylhetStay - Premium Student Accommodation in Sylhet",
+    "meta_description": "Find safe, affordable, and modern student housing near SUST, Leading University, and Metropolitan University in Sylhet.",
+    "keywords": ["student accommodation Sylhet", "hostel Sylhet", "student housing Bangladesh", "SUST hostel", "paying guest Sylhet"]
+  },
   "hero": {
     "headline": "Your Home Away From Home in Sylhet",
     "subheadline": "Experience premium student accommodation with cutting-edge amenities, a vibrant community, and an environment designed for success.",
     "location": "Sylhet, Bangladesh",
     "cta_primary": "Book Now",
-    "cta_secondary": "Explore Rooms"
+    "cta_primary_link": "/rooms",
+    "cta_secondary": "Explore Rooms",
+    "cta_secondary_link": "/rooms",
+    "hero_image": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=1600",
+    "trust_badges": [
+      "500+ Happy Residents",
+      "24/7 Security",
+      "1 Gbps WiFi"
+    ]
   },
   "stats": [
     {
       "label": "Happy Residents",
       "value": "500+",
-      "icon": "users"
+      "icon": "users",
+      "description": "Students trust us for their stay"
     },
     {
       "label": "Room Types",
       "value": "3",
-      "icon": "bed"
+      "icon": "bed",
+      "description": "Options for every budget"
     },
     {
       "label": "Internet Speed",
       "value": "1 Gbps",
-      "icon": "wifi"
+      "icon": "wifi",
+      "description": "Fiber optic in every room"
     },
     {
       "label": "Years Running",
       "value": "5+",
-      "icon": "trending-up"
+      "icon": "trending-up",
+      "description": "Since 2021"
+    }
+  ],
+  "features": [
+    {
+      "title": "Prime Location",
+      "description": "Minutes away from SUST, Leading University, and Metropolitan University.",
+      "icon": "map-pin"
+    },
+    {
+      "title": "All-Inclusive Rent",
+      "description": "No hidden costs. WiFi, water, electricity, and maintenance included.",
+      "icon": "check-circle"
+    },
+    {
+      "title": "Safe & Secure",
+      "description": "CCTV cameras, security guards, and biometric access control.",
+      "icon": "shield"
+    },
+    {
+      "title": "Community Events",
+      "description": "Study groups, cultural events, and social activities every month.",
+      "icon": "calendar"
     }
   ],
   "availability_cards": [
     {
       "title": "Shared Room",
       "badge": "4 Seats",
+      "badge_color": "blue",
       "desc": "Perfect for vibrant community living",
       "price": "\u09f34,500/mo",
-      "type": "shared"
+      "type": "shared",
+      "capacity": 4,
+      "available": 2,
+      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600"
     },
     {
       "title": "Semi-Private",
       "badge": "Most Popular",
+      "badge_color": "green",
       "desc": "Balance of privacy & affordability",
       "price": "\u09f37,500/mo",
-      "type": "semi-private"
+      "type": "semi-private",
+      "capacity": 2,
+      "available": 1,
+      "image": "https://images.unsplash.com/photo-1771327811795-6197403af846?w=600"
     },
     {
       "title": "Premium Single",
       "badge": "Premium",
+      "badge_color": "gold",
       "desc": "Ultimate privacy & comfort",
       "price": "\u09f310,500/mo",
-      "type": "premium-single"
+      "type": "premium-single",
+      "capacity": 1,
+      "available": 1,
+      "image": "https://images.unsplash.com/photo-1663811397091-9a13493eff11?w=600"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is included in the rent?",
+      "answer": "Rent includes WiFi, water, electricity, maintenance, and access to all common facilities (study lounge, gym, entertainment room). Meals are available at an additional cost."
+    },
+    {
+      "question": "Can I book a room before arriving in Sylhet?",
+      "answer": "Yes! You can book online through our website. We also offer virtual tours for prospective residents who are not in Sylhet yet."
+    },
+    {
+      "question": "Is there any security deposit?",
+      "answer": "Yes, a refundable security deposit equal to one month's rent is required at the time of booking."
+    },
+    {
+      "question": "Can I switch rooms if I don't like mine?",
+      "answer": "Subject to availability, you can request a room change after the first month. A small administrative fee may apply."
+    },
+    {
+      "question": "Are visitors allowed?",
+      "answer": "Visitors are allowed during daytime hours (8 AM - 8 PM) with prior registration at the front desk. Overnight guests are not permitted."
+    }
+  ],
+  "partners": [
+    {
+      "name": "Shahjalal University of Science & Technology",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/1/13/SUST_Logo.png",
+      "type": "university"
+    },
+    {
+      "name": "Leading University Sylhet",
+      "logo": "https://leadinguniversity.edu.bd/images/logo.png",
+      "type": "university"
+    },
+    {
+      "name": "Metropolitan University Sylhet",
+      "logo": "https://metrouni.edu.bd/assets/img/logo.png",
+      "type": "university"
     }
   ]
 }

@@ -3,14 +3,23 @@
     "id": 1,
     "name": "Shared Dormitory Room",
     "type": "shared",
-    "description": "Perfect for vibrant community living. Spacious shared room with 4 bunk beds, ideal for students on a budget.",
+    "category": "budget",
+    "description": "Perfect for vibrant community living. Spacious shared room with 4 bunk beds, ideal for students on a budget who enjoy a social environment.",
+    "short_description": "Budget-friendly shared room for social students.",
     "price": 4500,
+    "original_price": 4500,
+    "currency": "BDT",
+    "price_unit": "per month",
     "capacity": 4,
     "available_seats": 2,
     "is_available": true,
     "floor": 2,
     "room_number": "201",
+    "wing": "A",
     "size_sqft": 320,
+    "size_sqm": 29.7,
+    "bed_type": "Bunk Bed (4)",
+    "bathroom_type": "Shared (floor)",
     "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800",
     "images": [
       "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600",
@@ -22,30 +31,61 @@
       "4 bunk beds",
       "Shared bathroom",
       "Study desk per bed",
-      "Wardrobe"
+      "Wardrobe per resident",
+      "Ceiling fan"
     ],
     "amenities": [
       "WiFi",
       "Fan",
-      "Storage locker"
+      "Storage locker",
+      "Common kitchen access",
+      "Study lounge access"
+    ],
+    "whats_included": [
+      "WiFi",
+      "Water",
+      "Electricity",
+      "Maintenance",
+      "Common area access"
     ],
     "rating": 4.2,
     "review_count": 18,
     "is_popular": false,
-    "created_at": "2026-01-10T08:00:00Z"
+    "discount": null,
+    "cancellation_policy": "Free cancellation up to 7 days before check-in. 50% refund thereafter.",
+    "min_stay_months": 1,
+    "max_stay_months": 12,
+    "created_at": "2026-01-10T08:00:00Z",
+    "updated_at": "2026-05-01T08:00:00Z",
+    "last_maintenance": "2026-04-28",
+    "next_maintenance": "2026-06-28",
+    "nearby_attractions": [
+      "SUST Main Gate (1.2 km)",
+      "Akhalia Bazar (0.5 km)",
+      "Sylhet City Center (2.5 km)"
+    ]
   },
   {
     "id": 2,
     "name": "Semi-Private Twin Room",
     "type": "semi-private",
-    "description": "The perfect balance of privacy and affordability. Two single beds with shared amenities in a cozy setting.",
+    "category": "standard",
+    "description": "The perfect balance of privacy and affordability. Two single beds with attached bathroom in a cozy, well-furnished setting.",
+    "short_description": "Perfect balance of privacy and affordability.",
     "price": 7500,
+    "original_price": 7500,
+    "currency": "BDT",
+    "price_unit": "per month",
     "capacity": 2,
     "available_seats": 1,
     "is_available": true,
     "floor": 3,
     "room_number": "305",
+    "wing": "A",
     "size_sqft": 220,
+    "size_sqm": 20.4,
+    "bed_type": "Single Bed (2)",
+    "bathroom_type": "Attached",
     "image": "https://images.unsplash.com/photo-1771327811795-6197403af846?w=800",
     "images": [
       "https://images.unsplash.com/photo-1771327811795-6197403af846?w=600",
@@ -57,31 +97,63 @@
       "2 single beds",
       "Attached bathroom",
       "Study desks",
-      "Ceiling fan"
+      "Ceiling fan",
+      "Window with city view"
     ],
     "amenities": [
       "WiFi",
       "Fan",
       "Wardrobe",
-      "Attached Bath"
+      "Attached Bath",
+      "Common kitchen access",
+      "Study lounge access",
+      "TV in room"
+    ],
+    "whats_included": [
+      "WiFi",
+      "Water",
+      "Electricity",
+      "Maintenance",
+      "Common area access"
     ],
     "rating": 4.6,
     "review_count": 34,
     "is_popular": true,
-    "created_at": "2026-01-12T08:00:00Z"
+    "discount": null,
+    "cancellation_policy": "Free cancellation up to 14 days before check-in. 75% refund up to 7 days before.",
+    "min_stay_months": 1,
+    "max_stay_months": 12,
+    "created_at": "2026-01-12T08:00:00Z",
+    "updated_at": "2026-05-15T10:00:00Z",
+    "last_maintenance": "2026-05-10",
+    "next_maintenance": "2026-07-10",
+    "nearby_attractions": [
+      "SUST Main Gate (1.0 km)",
+      "Leading University (1.8 km)",
+      "Akhalia Bazar (0.3 km)"
+    ]
   },
   {
     "id": 3,
     "name": "Premium Single Room",
     "type": "premium-single",
-    "description": "Ultimate privacy and comfort with a fully furnished private room. Ideal for those who demand the best.",
+    "category": "premium",
+    "description": "Ultimate privacy and comfort with a fully furnished private room. Ideal for those who demand the best study and living environment.",
+    "short_description": "Fully private room with premium furnishings.",
     "price": 10500,
+    "original_price": 10500,
+    "currency": "BDT",
+    "price_unit": "per month",
     "capacity": 1,
     "available_seats": 1,
     "is_available": true,
     "floor": 4,
     "room_number": "401",
+    "wing": "B",
     "size_sqft": 180,
+    "size_sqm": 16.7,
+    "bed_type": "Single Premium Bed",
+    "bathroom_type": "Attached",
     "image": "https://images.unsplash.com/photo-1663811397091-9a13493eff11?w=800",
     "images": [
       "https://images.unsplash.com/photo-1663811397091-9a13493eff11?w=600",
@@ -93,7 +165,9 @@
       "Private room",
       "Attached bathroom",
       "Air conditioning",
-      "Premium furniture"
+      "Premium furniture",
+      "Study desk",
+      "Personal mini fridge"
     ],
     "amenities": [
       "WiFi",
@@ -101,25 +175,57 @@
       "Wardrobe",
       "Study Desk",
       "Attached Bath",
-      "Mini Fridge"
+      "Mini Fridge",
+      "Common kitchen access",
+      "Study lounge access",
+      "Gym access"
+    ],
+    "whats_included": [
+      "WiFi",
+      "Water",
+      "Electricity",
+      "Maintenance",
+      "AC usage (up to 10 hrs/day)",
+      "Common area access"
     ],
     "rating": 4.8,
     "review_count": 22,
     "is_popular": false,
-    "created_at": "2026-01-15T08:00:00Z"
+    "discount": null,
+    "cancellation_policy": "Free cancellation up to 14 days before check-in. 50% refund up to 7 days before.",
+    "min_stay_months": 1,
+    "max_stay_months": 12,
+    "created_at": "2026-01-15T08:00:00Z",
+    "updated_at": "2026-05-10T09:00:00Z",
+    "last_maintenance": "2026-05-05",
+    "next_maintenance": "2026-07-05",
+    "nearby_attractions": [
+      "Metropolitan University (0.8 km)",
+      "SUST Main Gate (1.5 km)",
+      "Sylhet City Center (2.0 km)"
+    ]
   },
   {
     "id": 4,
     "name": "Deluxe Premium Suite",
     "type": "premium-single",
-    "description": "Our top-tier offering with a spacious layout, en-suite bathroom, and panoramic city view.",
+    "category": "luxury",
+    "description": "Our top-tier offering with a spacious layout, en-suite bathroom, stunning city view, and premium smart amenities.",
+    "short_description": "Luxury suite with panoramic city view.",
     "price": 13000,
+    "original_price": 14000,
+    "currency": "BDT",
+    "price_unit": "per month",
     "capacity": 1,
     "available_seats": 0,
     "is_available": false,
     "floor": 5,
     "room_number": "501",
+    "wing": "B",
     "size_sqft": 240,
+    "size_sqm": 22.3,
+    "bed_type": "King Size Bed",
+    "bathroom_type": "En-suite with shower",
     "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
     "images": [
       "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600",
@@ -131,8 +237,11 @@
       "King bed",
       "En-suite bathroom",
       "Air conditioning",
-      "City view",
-      "Smart TV"
+      "City view window",
+      "Smart TV",
+      "Study desk",
+      "Personal refrigerator",
+      "Wardrobe"
     ],
     "amenities": [
       "WiFi",
@@ -141,11 +250,107 @@
       "Study Desk",
       "En-suite Bath",
       "Fridge",
-      "Smart TV"
+      "Smart TV",
+      "Premium bedding",
+      "Common kitchen access",
+      "Study lounge access",
+      "Gym access",
+      "Parking included"
+    ],
+    "whats_included": [
+      "WiFi",
+      "Water",
+      "Electricity",
+      "Maintenance",
+      "AC (unlimited)",
+      "Common area access",
+      "Parking"
     ],
     "rating": 4.9,
     "review_count": 11,
     "is_popular": true,
-    "created_at": "2026-02-01T08:00:00Z"
+    "discount": {
+      "type": "percent",
+      "value": 7,
+      "label": "Grand Opening Discount"
+    },
+    "cancellation_policy": "Free cancellation up to 21 days before check-in. 50% refund up to 14 days before.",
+    "min_stay_months": 1,
+    "max_stay_months": 12,
+    "created_at": "2026-02-01T08:00:00Z",
+    "updated_at": "2026-05-20T12:00:00Z",
+    "last_maintenance": "2026-05-18",
+    "next_maintenance": "2026-07-18",
+    "nearby_attractions": [
+      "Metropolitan University (0.6 km)",
+      "Sylhet City Center (1.8 km)",
+      "Shahi Eidgah (3.0 km)"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Shared Dormitory Room - Garden View",
+    "type": "shared",
+    "category": "budget",
+    "description": "Spacious shared dormitory overlooking our garden courtyard. Natural light fills the room during the day, creating a pleasant study atmosphere.",
+    "short_description": "Shared room with garden courtyard view.",
+    "price": 5000,
+    "original_price": 5000,
+    "currency": "BDT",
+    "price_unit": "per month",
+    "capacity": 4,
+    "available_seats": 3,
+    "is_available": true,
+    "floor": 1,
+    "room_number": "104",
+    "wing": "A",
+    "size_sqft": 350,
+    "size_sqm": 32.5,
+    "bed_type": "Bunk Bed (4)",
+    "bathroom_type": "Shared (floor)",
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600"
+    ],
+    "features": [
+      "4 bunk beds",
+      "Shared bathroom",
+      "Study desk per bed",
+      "Garden view window",
+      "Wardrobe",
+      "Ceiling fan"
+    ],
+    "amenities": [
+      "WiFi",
+      "Fan",
+      "Storage locker",
+      "Garden access",
+      "Common kitchen access"
+    ],
+    "whats_included": [
+      "WiFi",
+      "Water",
+      "Electricity",
+      "Maintenance",
+      "Common area access"
+    ],
+    "rating": 4.3,
+    "review_count": 8,
+    "is_popular": false,
+    "discount": null,
+    "cancellation_policy": "Free cancellation up to 7 days before check-in. 50% refund thereafter.",
+    "min_stay_months": 1,
+    "max_stay_months": 12,
+    "created_at": "2026-03-01T08:00:00Z",
+    "updated_at": "2026-04-15T10:00:00Z",
+    "last_maintenance": "2026-04-20",
+    "next_maintenance": "2026-06-20",
+    "nearby_attractions": [
+      "Garden Courtyard (on-site)",
+      "Akhalia Bazar (0.4 km)",
+      "SUST Main Gate (1.3 km)"
+    ]
   }
 ]

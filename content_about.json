@@ -1,15 +1,124 @@
 {
   "section": "about",
   "title": "About SylhetStay",
-  "story": "SylhetStay was founded in 2021 to solve the student housing crisis in Sylhet by offering safe, affordable, and modern accommodations near major universities.",
-  "mission": "To provide the best student living experience in Bangladesh \u2014 one room at a time.",
+  "story": "SylhetStay was founded in 2021 to solve the student housing crisis in Sylhet by offering safe, affordable, and modern accommodations near major universities. What started as a single building with 20 rooms has now grown into a premier student housing complex serving hundreds of students every year.",
+  "mission": "To provide the best student living experience in Bangladesh — one room at a time.",
   "vision": "A Bangladesh where no student has to worry about where to sleep during their studies.",
+  "core_values": [
+    {
+      "title": "Safety First",
+      "description": "24/7 security, CCTV surveillance, and strict visitor protocols ensure our residents are always safe.",
+      "icon": "shield"
+    },
+    {
+      "title": "Community Driven",
+      "description": "We foster a vibrant, inclusive community where students from all backgrounds feel at home.",
+      "icon": "users"
+    },
+    {
+      "title": "Affordability",
+      "description": "Quality accommodation at prices that don't break the bank for students and their families.",
+      "icon": "dollar-sign"
+    },
+    {
+      "title": "Continuous Improvement",
+      "description": "We constantly upgrade our facilities based on resident feedback and modern standards.",
+      "icon": "trending-up"
+    }
+  ],
   "established": 2021,
+  "founded_by": "Abhishek Chowdhury",
   "location": "123 Akhalia Road, Sylhet 3100, Bangladesh",
+  "coordinates": {
+    "lat": 24.8949,
+    "lng": 91.8687
+  },
   "nearby_universities": [
-    "SUST",
-    "SHAHJALAL UNIVERSITY",
-    "LEADING UNIVERSITY",
-    "METROPOLITAN UNIVERSITY"
+    {
+      "name": "SUST",
+      "full_name": "Shahjalal University of Science and Technology",
+      "distance_km": 1.2,
+      "travel_time_minutes": 10
+    },
+    {
+      "name": "SHAHJALAL UNIVERSITY",
+      "full_name": "Sylhet Shahjalal University",
+      "distance_km": 1.5,
+      "travel_time_minutes": 12
+    },
+    {
+      "name": "LEADING UNIVERSITY",
+      "full_name": "Leading University Sylhet",
+      "distance_km": 2.0,
+      "travel_time_minutes": 15
+    },
+    {
+      "name": "METROPOLITAN UNIVERSITY",
+      "full_name": "Metropolitan University Sylhet",
+      "distance_km": 0.8,
+      "travel_time_minutes": 8
+    }
+  ],
+  "achievements": [
+    {
+      "year": 2022,
+      "title": "Best Student Housing Dhaka Tribune Award",
+      "description": "Recognized as the best student accommodation provider in Sylhet division."
+    },
+    {
+      "year": 2023,
+      "title": "1000 Residents Milestone",
+      "description": "Celebrated hosting our 1000th resident since opening."
+    },
+    {
+      "year": 2024,
+      "title": "Green Building Certification",
+      "description": "Received eco-friendly building certification for sustainable practices."
+    },
+    {
+      "year": 2025,
+      "title": "Expansion Launch",
+      "description": "Opened our second wing with 30 additional rooms and new facilities."
+    }
+  ],
+  "team_stats": {
+    "total_employees": 24,
+    "management": 4,
+    "security_staff": 8,
+    "maintenance_staff": 6,
+    "housekeeping": 4,
+    "kitchen_staff": 2
+  },
+  "timeline": [
+    {
+      "year": 2021,
+      "event": "Founded",
+      "description": "SylhetStay was established with 20 rooms in a single building."
+    },
+    {
+      "year": 2022,
+      "event": "Expansion Phase 1",
+      "description": "Added 15 more rooms and common kitchen facilities."
+    },
+    {
+      "year": 2023,
+      "event": "Premium Wing",
+      "description": "Launched premium single rooms and deluxe suites."
+    },
+    {
+      "year": 2024,
+      "event": "Facility Upgrade",
+      "description": "Added gym, study lounge, and entertainment room."
+    },
+    {
+      "year": 2025,
+      "event": "Second Building",
+      "description": "Opened a second wing with 30 more rooms and rooftop garden."
+    },
+    {
+      "year": 2026,
+      "event": "Digital Transformation",
+      "description": "Launched online booking, virtual tours, and automated payment system."
+    }
   ]
 }

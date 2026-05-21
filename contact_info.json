@@ -1,20 +1,130 @@
 {
   "address": "123 Akhalia Road, Sylhet 3100, Bangladesh",
+  "address_lines": [
+    "123 Akhalia Road",
+    "Akhalia, Sylhet 3100",
+    "Bangladesh"
+  ],
   "phone": "+880 1711-123456",
+  "phone_secondary": "+880 1711-654321",
   "email": "info@sylhetstay.com",
+  "email_support": "support@sylhetstay.com",
+  "email_bookings": "bookings@sylhetstay.com",
   "whatsapp": "+880 1711-123456",
-  "facebook": "https://facebook.com/sylhetstay",
+  "emergency_contact": {
+    "name": "Front Desk",
+    "phone": "+880 1700-000999",
+    "available": "24/7"
+  },
+  "social_media": {
+    "facebook": "https://facebook.com/sylhetstay",
+    "instagram": "https://instagram.com/sylhetstay",
+    "twitter": "https://twitter.com/sylhetstay",
+    "linkedin": "https://linkedin.com/company/sylhetstay",
+    "youtube": "https://youtube.com/@sylhetstay"
+  },
   "office_hours": {
-    "weekdays": "8:00 AM \u2013 8:00 PM",
-    "friday": "2:00 PM \u2013 8:00 PM",
-    "saturday": "8:00 AM \u2013 6:00 PM"
+    "saturday_to_thursday": {
+      "label": "Saturday - Thursday",
+      "open": "8:00 AM",
+      "close": "8:00 PM",
+      "timezone": "BST (UTC+6)"
+    },
+    "friday": {
+      "label": "Friday",
+      "open": "2:00 PM",
+      "close": "8:00 PM",
+      "note": "Closed for Jummah prayers until 2 PM"
+    },
+    "saturday": {
+      "label": "Saturday",
+      "open": "8:00 AM",
+      "close": "6:00 PM"
+    },
+    "public_holidays": {
+      "label": "Public Holidays",
+      "open": "3:00 PM",
+      "close": "8:00 PM"
+    }
   },
   "map_embed_url": "https://maps.google.com/maps?q=Akhalia+Sylhet&output=embed",
+  "map_location": {
+    "lat": 24.8949,
+    "lng": 91.8687,
+    "zoom": 15
+  },
   "subjects": [
-    "booking",
-    "general",
-    "complaint",
-    "partnership",
-    "other"
-  ]
+    {
+      "value": "booking",
+      "label": "Booking Inquiry",
+      "description": "Questions about room availability, pricing, and reservations"
+    },
+    {
+      "value": "general",
+      "label": "General Inquiry",
+      "description": "General questions about SylhetStay"
+    },
+    {
+      "value": "complaint",
+      "label": "Complaint",
+      "description": "Report an issue or file a complaint"
+    },
+    {
+      "value": "partnership",
+      "label": "Partnership",
+      "description": "Business collaboration and partnership opportunities"
+    },
+    {
+      "value": "cancellation",
+      "label": "Cancellation & Refund",
+      "description": "Request cancellation or inquire about refunds"
+    },
+    {
+      "value": "other",
+      "label": "Other",
+      "description": "Anything else not covered above"
+    }
+  ],
+  "contact_form": {
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "label": "Full Name",
+        "required": true,
+        "placeholder": "Enter your full name"
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "label": "Email Address",
+        "required": true,
+        "placeholder": "Enter your email"
+      },
+      {
+        "name": "phone",
+        "type": "tel",
+        "label": "Phone Number",
+        "required": false,
+        "placeholder": "Enter your phone number"
+      },
+      {
+        "name": "subject",
+        "type": "select",
+        "label": "Subject",
+        "required": true,
+        "options": ["booking", "general", "complaint", "partnership", "cancellation", "other"]
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "label": "Message",
+        "required": true,
+        "placeholder": "Tell us how we can help you...",
+        "max_length": 2000
+      }
+    ],
+    "recaptcha_enabled": true,
+    "response_time": "Within 24 hours"
+  }
 }

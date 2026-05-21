@@ -2,85 +2,241 @@
   {
     "id": 1,
     "src": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=400",
     "category": "rooms",
     "title": "Modern Bedroom",
+    "alt_text": "Bright and modern bedroom with large windows and wooden flooring at SylhetStay",
+    "description": "A well-lit shared bedroom featuring bunk beds, study desks, and ample natural lighting.",
+    "tags": ["bedroom", "shared", "bunk-beds"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-10T00:00:00Z"
   },
   {
     "id": 2,
     "src": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=400",
     "category": "rooms",
     "title": "Premium Suite",
+    "alt_text": "Elegant premium single room with a comfortable bed and modern decor at SylhetStay",
+    "description": "Our premium single room featuring a comfortable single bed, study area, wardrobe, and air conditioning.",
+    "tags": ["premium", "single-room", "ac"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-10T00:00:00Z"
   },
   {
     "id": 3,
     "src": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=400",
     "category": "rooms",
     "title": "Living Area",
+    "alt_text": "Cozy living area with comfortable seating and modern furnishings at SylhetStay",
+    "description": "Common living area in the semi-private wing with sofa seating, coffee table, and television.",
+    "tags": ["living-room", "common-area", "semi-private"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-10T00:00:00Z"
   },
   {
     "id": 4,
     "src": "https://images.unsplash.com/photo-1753505889211-9cfbac527474?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1753505889211-9cfbac527474?w=400",
     "category": "rooms",
     "title": "Study Room",
+    "alt_text": "Quiet study area with desks and chairs for focused learning at SylhetStay",
+    "description": "In-room study area with dedicated desk, ergonomic chair, and task lighting for focused study sessions.",
+    "tags": ["study", "desk", "workspace"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-10T00:00:00Z"
   },
   {
     "id": 5,
     "src": "https://images.unsplash.com/photo-1723259457560-b76d597f709b?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1723259457560-b76d597f709b?w=400",
     "category": "common",
     "title": "Lounge Area",
+    "alt_text": "Spacious lounge area with comfortable sofas and modern decor at SylhetStay",
+    "description": "The main lounge area on the ground floor where residents gather to socialize, watch TV, and relax.",
+    "tags": ["lounge", "social", "common-area"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-12T00:00:00Z"
   },
   {
     "id": 6,
     "src": "https://images.unsplash.com/photo-1635321349359-333da6bb6da9?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1635321349359-333da6bb6da9?w=400",
     "category": "common",
     "title": "Reception",
+    "alt_text": "Modern reception area with front desk at SylhetStay",
+    "description": "The main reception and front desk area where residents check in and get assistance.",
+    "tags": ["reception", "front-desk", "entrance"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-12T00:00:00Z"
   },
   {
     "id": 7,
     "src": "https://images.unsplash.com/photo-1772944780860-e99bd902d59a?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1772944780860-e99bd902d59a?w=400",
     "category": "common",
     "title": "Corridor",
+    "alt_text": "Well-lit clean corridor with modern flooring at SylhetStay",
+    "description": "Clean and well-maintained corridor on the residential floors with proper lighting and signage.",
+    "tags": ["corridor", "hallway", "interior"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-12T00:00:00Z"
   },
   {
     "id": 8,
     "src": "https://images.unsplash.com/photo-1630694144867-37acec97af5c?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1630694144867-37acec97af5c?w=400",
     "category": "dining",
     "title": "Dining Hall",
+    "alt_text": "Large dining hall with tables and chairs for residents at SylhetStay",
+    "description": "Spacious dining hall capable of seating 50+ residents. Three meals are served daily here.",
+    "tags": ["dining", "mess", "meals"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-15T00:00:00Z"
   },
   {
     "id": 9,
     "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400",
     "category": "dining",
     "title": "Common Kitchen",
+    "alt_text": "Fully equipped common kitchen available for residents at SylhetStay",
+    "description": "Fully equipped common kitchen with microwave, gas stove, refrigerator, and cooking utensils available for all residents.",
+    "tags": ["kitchen", "cooking", "self-service"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-15T00:00:00Z"
   },
   {
     "id": 10,
     "src": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=400",
     "category": "facilities",
     "title": "Gym",
+    "alt_text": "Modern fitness center with gym equipment at SylhetStay",
+    "description": "Modern gym equipped with treadmills, dumbbells, exercise bikes, and weight training machines. Open daily 6 AM - 10 PM.",
+    "tags": ["gym", "fitness", "workout"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-18T00:00:00Z"
   },
   {
     "id": 11,
     "src": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400",
     "category": "facilities",
     "title": "Study Lounge",
+    "alt_text": "Quiet air-conditioned study lounge with desks at SylhetStay",
+    "description": "Air-conditioned study lounge with individual study carrels, group tables, and high-speed WiFi. Open 24/7.",
+    "tags": ["study", "library", "quiet-zone"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-18T00:00:00Z"
   },
   {
     "id": 12,
     "src": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=400",
     "category": "facilities",
     "title": "Outdoor Garden Area",
+    "alt_text": "Peaceful outdoor garden with seating at SylhetStay",
+    "description": "A peaceful outdoor garden with benches and plants where residents can relax, read, or socialize in the fresh air.",
+    "tags": ["garden", "outdoor", "relaxation"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
     "uploaded_at": "2026-01-18T00:00:00Z"
+  },
+  {
+    "id": 13,
+    "src": "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1529400971008-f566de0e6dfc?w=400",
+    "category": "common",
+    "title": "Rooftop Terrace",
+    "alt_text": "Rooftop terrace with seating and city view at SylhetStay",
+    "description": "Rooftop terrace with panoramic views of Sylhet city. Perfect for evening gatherings and studying outdoors.",
+    "tags": ["rooftop", "terrace", "city-view"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
+    "uploaded_at": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": 14,
+    "src": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400",
+    "category": "facilities",
+    "title": "Laundry Room",
+    "alt_text": "Laundry room with washing machines at SylhetStay",
+    "description": "Self-service laundry room with washing machines and dryers available on each residential floor.",
+    "tags": ["laundry", "utility", "facility"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
+    "uploaded_at": "2026-02-05T00:00:00Z"
+  },
+  {
+    "id": 15,
+    "src": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=1200",
+    "thumbnail": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=400",
+    "category": "common",
+    "title": "Prayer Room",
+    "alt_text": "Clean prayer room with prayer mats at SylhetStay",
+    "description": "A dedicated prayer room for both male and female residents, maintained in a clean and peaceful environment.",
+    "tags": ["prayer", "spiritual", "quiet"],
+    "dimensions": {
+      "width": 1200,
+      "height": 800
+    },
+    "photographer": "SylhetStay Media",
+    "uploaded_at": "2026-02-10T00:00:00Z"
   }
 ]

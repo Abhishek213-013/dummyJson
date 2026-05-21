@@ -3,10 +3,17 @@
     "id": 1,
     "name": "Abdul Karim",
     "role": "Hostel Manager",
-    "bio": "15+ years of experience managing student accommodations across Bangladesh.",
+    "bio": "15+ years of experience managing student accommodations across Bangladesh. Previously managed dormitories at BRAC University and North South University.",
+    "short_bio": "Experienced manager with a passion for student welfare.",
     "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300",
     "email": "manager@sylhetstay.com",
     "phone": "+880 1700-000001",
+    "skills": ["Operations Management", "Team Leadership", "Conflict Resolution", "Budget Planning"],
+    "social_links": {
+      "facebook": "https://facebook.com/abdulkarim.sylhetstay",
+      "linkedin": "https://linkedin.com/in/abdulkarim-sylhetstay"
+    },
+    "joining_date": "2021-01-01",
     "order": 1,
     "is_active": true
   },
@@ -14,10 +21,17 @@
     "id": 2,
     "name": "Fatema Begum",
     "role": "Front Desk Supervisor",
-    "bio": "Dedicated to making every resident feel at home from day one.",
+    "bio": "Dedicated to making every resident feel at home from day one. With a background in hospitality management, she ensures smooth check-ins and handles resident concerns with care.",
+    "short_bio": "Your friendly face at the front desk.",
     "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300",
     "email": "frontdesk@sylhetstay.com",
     "phone": "+880 1700-000002",
+    "skills": ["Customer Service", "Hospitality Management", "Booking Systems", "Conflict Resolution"],
+    "social_links": {
+      "facebook": "https://facebook.com/fatema.sylhetstay",
+      "linkedin": "https://linkedin.com/in/fatema-sylhetstay"
+    },
+    "joining_date": "2021-03-15",
     "order": 2,
     "is_active": true
   },
@@ -25,10 +39,16 @@
     "id": 3,
     "name": "Rakibul Islam",
     "role": "Maintenance Head",
-    "bio": "Ensures every room and facility is in perfect working condition at all times.",
+    "bio": "Ensures every room and facility is in perfect working condition at all times. An engineer by training, he oversees all electrical, plumbing, and HVAC systems.",
+    "short_bio": "Keeping everything running smoothly.",
     "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300",
     "email": "maintenance@sylhetstay.com",
     "phone": "+880 1700-000003",
+    "skills": ["Electrical Systems", "Plumbing", "HVAC", "Preventive Maintenance", "Team Management"],
+    "social_links": {
+      "facebook": "https://facebook.com/rakibul.sylhetstay"
+    },
+    "joining_date": "2021-06-01",
     "order": 3,
     "is_active": true
   },
@@ -36,11 +56,80 @@
     "id": 4,
     "name": "Nusrat Jahan",
     "role": "Student Affairs Coordinator",
-    "bio": "Your go-to person for any concerns, events, and community activities.",
+    "bio": "Your go-to person for any concerns, events, and community activities. She organizes study groups, cultural events, and ensures residents have a vibrant social life.",
+    "short_bio": "Building a vibrant student community.",
     "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300",
     "email": "affairs@sylhetstay.com",
     "phone": "+880 1700-000004",
+    "skills": ["Event Planning", "Student Counseling", "Community Building", "Communication"],
+    "social_links": {
+      "facebook": "https://facebook.com/nusrat.sylhetstay",
+      "linkedin": "https://linkedin.com/in/nusrat-sylhetstay"
+    },
+    "joining_date": "2022-01-10",
     "order": 4,
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "name": "Shahidul Alam",
+    "role": "Chief Security Officer",
+    "bio": "Former Bangladesh Army personnel with 12 years of service. He oversees all security operations including CCTV monitoring, access control, and night patrols.",
+    "short_bio": "Your safety is his top priority.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300",
+    "email": "security@sylhetstay.com",
+    "phone": "+880 1700-000005",
+    "skills": ["Security Management", "CCTV Operations", "Emergency Response", "Team Training"],
+    "social_links": {},
+    "joining_date": "2021-01-01",
+    "order": 5,
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "name": "Parveen Sultana",
+    "role": "Head of Housekeeping",
+    "bio": "Ensures the highest standards of cleanliness across all rooms and common areas. Her team of 4 maintains daily cleaning schedules with meticulous attention to detail.",
+    "short_bio": "Keeping SylhetStay spotless.",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=300",
+    "email": "housekeeping@sylhetstay.com",
+    "phone": "+880 1700-000006",
+    "skills": ["Cleaning Management", "Inventory Management", "Quality Control", "Team Supervision"],
+    "social_links": {},
+    "joining_date": "2021-04-01",
+    "order": 6,
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "name": "Kazi Faruk",
+    "role": "Chef / Kitchen Manager",
+    "bio": "With 8 years of experience in hotel kitchens, he plans nutritious and varied meal menus for residents. Specializes in both Bangladeshi and continental cuisine.",
+    "short_bio": "Delicious and nutritious meals daily.",
+    "avatar": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?w=300",
+    "email": "kitchen@sylhetstay.com",
+    "phone": "+880 1700-000007",
+    "skills": ["Menu Planning", "Catering Management", "Food Safety", "Inventory Management"],
+    "social_links": {},
+    "joining_date": "2022-06-15",
+    "order": 7,
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "name": "Shamima Akhter",
+    "role": "Accounts & Finance Officer",
+    "bio": "Handles all billing, payment collection, and financial records. Ensures transparent and accurate accounting for residents and management alike.",
+    "short_bio": "Keeping the numbers in check.",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300",
+    "email": "accounts@sylhetstay.com",
+    "phone": "+880 1700-000008",
+    "skills": ["Accounting", "Financial Reporting", "Payment Processing", "Excel", "Tax Compliance"],
+    "social_links": {
+      "linkedin": "https://linkedin.com/in/shamima-sylhetstay"
+    },
+    "joining_date": "2021-08-01",
+    "order": 8,
     "is_active": true
   }
 ]

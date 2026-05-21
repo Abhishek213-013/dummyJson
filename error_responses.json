@@ -6,27 +6,62 @@
       "field": [
         "The field is required."
       ]
-    }
+    },
+    "status_code": 400,
+    "error_code": "BAD_REQUEST",
+    "suggestion": "Please check your request parameters and try again."
   },
   "401_unauthorized": {
     "success": false,
     "message": "Unauthenticated. Please login.",
-    "data": null
+    "data": null,
+    "status_code": 401,
+    "error_code": "UNAUTHORIZED",
+    "suggestion": "Please provide a valid authentication token in the Authorization header.",
+    "login_url": "/login"
   },
   "403_forbidden": {
     "success": false,
     "message": "You do not have permission to perform this action.",
-    "data": null
+    "data": null,
+    "status_code": 403,
+    "error_code": "FORBIDDEN",
+    "suggestion": "Contact the administrator if you believe this is a mistake."
   },
   "404_not_found": {
     "success": false,
     "message": "Resource not found.",
-    "data": null
+    "data": null,
+    "status_code": 404,
+    "error_code": "NOT_FOUND",
+    "suggestion": "The requested resource does not exist. Please verify the URL or ID."
+  },
+  "405_method_not_allowed": {
+    "success": false,
+    "message": "HTTP method not allowed for this endpoint.",
+    "data": null,
+    "status_code": 405,
+    "error_code": "METHOD_NOT_ALLOWED",
+    "allowed_methods": ["GET", "POST"],
+    "suggestion": "Check the API documentation for allowed methods on this endpoint."
   },
   "409_conflict": {
     "success": false,
     "message": "This email address is already registered.",
-    "data": null
+    "data": null,
+    "status_code": 409,
+    "error_code": "CONFLICT",
+    "suggestion": "Try logging in instead, or use a different email address.",
+    "password_reset_url": "/password/reset"
+  },
+  "413_payload_too_large": {
+    "success": false,
+    "message": "Uploaded file exceeds the maximum allowed size.",
+    "data": null,
+    "status_code": 413,
+    "error_code": "PAYLOAD_TOO_LARGE",
+    "max_file_size_mb": 10,
+    "suggestion": "Compress the file or upload a smaller version."
   },
   "422_validation_failed": {
     "success": false,
@@ -38,17 +73,56 @@
       ],
       "password": [
         "The password must be at least 8 characters."
+      ],
+      "phone": [
+        "The phone number must be a valid Bangladeshi number."
       ]
-    }
+    },
+    "status_code": 422,
+    "error_code": "VALIDATION_FAILED",
+    "suggestion": "Correct the highlighted fields and resubmit."
   },
   "429_too_many_requests": {
     "success": false,
     "message": "Too many requests. Please try again in 60 seconds.",
-    "retry_after": 60
+    "retry_after": 60,
+    "status_code": 429,
+    "error_code": "RATE_LIMIT_EXCEEDED",
+    "rate_limit": {
+      "limit": 100,
+      "remaining": 0,
+      "reset_in_seconds": 60
+    },
+    "suggestion": "Slow down your request rate. Check the Retry-After header."
   },
   "500_server_error": {
     "success": false,
     "message": "Internal server error. Please try again later.",
-    "data": null
+    "data": null,
+    "status_code": 500,
+    "error_code": "INTERNAL_ERROR",
+    "suggestion": "Our team has been notified. Please try again in a few minutes.",
+    "support_email": "support@sylhetstay.com"
+  },
+  "502_bad_gateway": {
+    "success": false,
+    "message": "Upstream server unavailable. Please try again later.",
+    "data": null,
+    "status_code": 502,
+    "error_code": "BAD_GATEWAY",
+    "suggestion": "This is usually a temporary issue. Please refresh the page."
+  },
+  "503_service_unavailable": {
+    "success": false,
+    "message": "Service is temporarily down for maintenance.",
+    "data": null,
+    "status_code": 503,
+    "error_code": "SERVICE_UNAVAILABLE",
+    "estimated_downtime_minutes": 30,
+    "maintenance_window": {
+      "start": "2026-06-01T02:00:00Z",
+      "end": "2026-06-01T06:00:00Z"
+    },
+    "suggestion": "Please check back later. We apologize for the inconvenience."
   }
 }
