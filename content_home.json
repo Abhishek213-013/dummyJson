@@ -6,103 +6,208 @@
     "keywords": ["student accommodation Sylhet", "hostel Sylhet", "student housing Bangladesh", "SUST hostel", "paying guest Sylhet"]
   },
   "hero": {
-    "headline": "Your Home Away From Home in Sylhet",
-    "subheadline": "Experience premium student accommodation with cutting-edge amenities, a vibrant community, and an environment designed for success.",
-    "location": "Sylhet, Bangladesh",
-    "cta_primary": "Book Now",
-    "cta_primary_link": "/rooms",
-    "cta_secondary": "Explore Rooms",
-    "cta_secondary_link": "/rooms",
-    "hero_image": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=1600",
-    "trust_badges": [
-      "500+ Happy Residents",
-      "24/7 Security",
-      "1 Gbps WiFi"
+    "slides": [
+      {
+        "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=1920&q=80",
+        "badge": "Sylhet, Bangladesh",
+        "headline_part1": "Your Home",
+        "headline_part2": "Away From Home",
+        "headline_part3": "in Sylhet",
+        "description_part1": "cutting-edge amenities",
+        "description_part2": "vibrant community"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80",
+        "badge": "Prime Location",
+        "headline_part1": "Study in",
+        "headline_part2": "Comfort",
+        "headline_part3": "",
+        "description_part1": "modern furniture",
+        "description_part2": "high-speed WiFi"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&q=80",
+        "badge": "Community Living",
+        "headline_part1": "Build Your",
+        "headline_part2": "Network",
+        "headline_part3": "",
+        "description_part1": "vibrant community",
+        "description_part2": "networking events"
+      }
+    ],
+    "autoSlideInterval": 5000,
+    "location": "Sylhet, Bangladesh"
+  },
+  "searchWidget": {
+    "roomTypeOptions": [
+      { "value": "", "label": "All Types" },
+      { "value": "single", "label": "Single" },
+      { "value": "shared", "label": "Shared" },
+      { "value": "premium", "label": "Premium" }
+    ],
+    "seatsOptions": [
+      { "value": "", "label": "Any" },
+      { "value": "1", "label": "1 Person" },
+      { "value": "2", "label": "2 People" },
+      { "value": "4", "label": "4 People" }
+    ],
+    "maxPriceOptions": [
+      { "value": "", "label": "Any Budget" },
+      { "value": "5000", "label": "৳5,000/mo" },
+      { "value": "8000", "label": "৳8,000/mo" },
+      { "value": "12000", "label": "৳12,000/mo" }
+    ],
+    "labels": {
+      "roomType": "Room Type",
+      "seats": "Seats",
+      "maxPrice": "Max Price",
+      "searchButton": "Search"
+    }
+  },
+  "availabilityCards": [
+    {
+      "icon": "Users",
+      "title": "12 Seats Available",
+      "desc": "Across all room types",
+      "price": "৳4,500/mo",
+      "badge": "Available Now"
+    },
+    {
+      "icon": "Award",
+      "title": "Premium Rooms",
+      "desc": "AC + Attached Bath",
+      "price": "৳10,500/mo",
+      "badge": "Popular"
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Early Bird Discount",
+      "desc": "Book 3 months, get 10% off",
+      "price": "Save ৳1,350",
+      "badge": "Limited"
+    }
+  ],
+  "about": {
+    "badge": "Est. 2020",
+    "headline_part1": "Welcome to",
+    "headline_part2": "SylhetStay",
+    "description": "Providing exceptional accommodation to students pursuing their academic dreams. We understand the importance of a comfortable, safe, and study-conducive environment.",
+    "stats": [
+      { "icon": "Users", "value": "150+", "label": "Living Here" },
+      { "icon": "Star", "value": "4.8/5.0", "label": "Rating" },
+      { "icon": "TrendingUp", "value": "98%", "label": "High Demand" }
+    ],
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=600", "label": "Modern Rooms" },
+      { "src": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=600", "label": "Premium Suites" },
+      { "src": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=600", "label": "Study Areas" },
+      { "src": "https://images.unsplash.com/photo-1753505889211-9cfbac527474?w=600", "label": "Common Spaces" }
     ]
   },
-  "stats": [
-    {
-      "label": "Happy Residents",
-      "value": "500+",
-      "icon": "users",
-      "description": "Students trust us for their stay"
+  "facilities": {
+    "badge": "Premium Amenities",
+    "headline": "World-Class Facilities",
+    "description": "Everything you need for success, all under one roof",
+    "items": [
+      { "icon": "Wifi", "label": "High-Speed WiFi", "desc": "100 Mbps fiber" },
+      { "icon": "Wind", "label": "Air Conditioning", "desc": "Premium rooms" },
+      { "icon": "Utensils", "label": "Dining Hall", "desc": "3 meals daily" },
+      { "icon": "Coffee", "label": "Common Room", "desc": "Recreation area" },
+      { "icon": "BookOpen", "label": "Study Rooms", "desc": "Quiet & peaceful" },
+      { "icon": "Shield", "label": "24/7 Security", "desc": "CCTV & guards" },
+      { "icon": "Car", "label": "Parking", "desc": "Bike & car spaces" },
+      { "icon": "Dumbbell", "label": "Fitness Center", "desc": "Modern equipment" }
+    ]
+  },
+  "rooms": {
+    "badge": "Find Your Space",
+    "headline": "Choose Your Perfect Room",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800",
+        "title": "Shared Room",
+        "desc": "Perfect for vibrant community",
+        "price": "৳4,500",
+        "features": ["4 bunk beds", "Shared bathroom", "Study desk", "Wardrobe"],
+        "popular": false,
+        "type": "shared"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1771327811795-6197403af846?w=800",
+        "title": "Semi-Private",
+        "desc": "Balance of privacy & affordability",
+        "price": "৳7,500",
+        "features": ["2 single beds", "Attached bath", "Study desks", "Ceiling fan"],
+        "popular": true,
+        "type": "semi-private"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-16638113493eff11?w=800",
+        "title": "Premium Single",
+        "desc": "Ultimate privacy & comfort",
+        "price": "৳10,500",
+        "features": ["Private room", "Attached bath", "Air conditioning", "Premium furniture"],
+        "popular": false,
+        "type": "premium"
+      }
+    ]
+  },
+  "gallery": {
+    "badge": "Photo Gallery",
+    "headline": "Explore Our Beautiful Space",
+    "description": "Take a visual tour of your new home",
+    "showMoreCount": 24,
+    "images": [
+      { "src": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=1200", "label": "Modern Rooms" },
+      { "src": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=1200", "label": "Premium Suites" },
+      { "src": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=1200", "label": "Study Areas" },
+      { "src": "https://images.unsplash.com/photo-1753505889211-9cfbac527474?w=1200", "label": "Common Spaces" },
+      { "src": "https://images.unsplash.com/photo-1723259457560-b76d597f709b?w=1200", "label": "Lounge Area" },
+      { "src": "https://images.unsplash.com/photo-1635321349351-de890ff33b26?w=1200", "label": "Reception" },
+      { "src": "https://images.unsplash.com/photo-1772944780860-e99bd902d59a?w=1200", "label": "Corridor" }
+    ]
+  },
+  "testimonials": {
+    "badge": "The People",
+    "headline": "What Students Say",
+    "description": "Hear from our happy residents",
+    "items": [
+      {
+        "name": "Arafat Rahman",
+        "uni": "SUST, Computer Science",
+        "text": "The facilities are excellent, and the staff is incredibly supportive. The study environment here helped me maintain my GPA!"
+      },
+      {
+        "name": "Fatima Hassan",
+        "uni": "Metropolitan University",
+        "text": "WiFi is super fast, and the food quality is great. Made lots of friends here. Highly recommended!"
+      },
+      {
+        "name": "Mehedi Khan",
+        "uni": "Sylhet Medical College",
+        "text": "The hostel management made the transition so smooth. Feels like a second home!"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to Join Our Community?",
+    "description": "Be part of a thriving student community that supports your academic journey and creates lifelong memories",
+    "primaryButton": {
+      "text": "Book Your Room",
+      "link": "/rooms",
+      "icon": "Calendar"
     },
-    {
-      "label": "Room Types",
-      "value": "3",
-      "icon": "bed",
-      "description": "Options for every budget"
-    },
-    {
-      "label": "Internet Speed",
-      "value": "1 Gbps",
-      "icon": "wifi",
-      "description": "Fiber optic in every room"
-    },
-    {
-      "label": "Years Running",
-      "value": "5+",
-      "icon": "trending-up",
-      "description": "Since 2021"
+    "secondaryButton": {
+      "text": "Contact Us",
+      "link": "/contact",
+      "icon": "Phone"
     }
-  ],
-  "features": [
-    {
-      "title": "Prime Location",
-      "description": "Minutes away from SUST, Leading University, and Metropolitan University.",
-      "icon": "map-pin"
-    },
-    {
-      "title": "All-Inclusive Rent",
-      "description": "No hidden costs. WiFi, water, electricity, and maintenance included.",
-      "icon": "check-circle"
-    },
-    {
-      "title": "Safe & Secure",
-      "description": "CCTV cameras, security guards, and biometric access control.",
-      "icon": "shield"
-    },
-    {
-      "title": "Community Events",
-      "description": "Study groups, cultural events, and social activities every month.",
-      "icon": "calendar"
-    }
-  ],
-  "availability_cards": [
-    {
-      "title": "Shared Room",
-      "badge": "4 Seats",
-      "badge_color": "blue",
-      "desc": "Perfect for vibrant community living",
-      "price": "\u09f34,500/mo",
-      "type": "shared",
-      "capacity": 4,
-      "available": 2,
-      "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600"
-    },
-    {
-      "title": "Semi-Private",
-      "badge": "Most Popular",
-      "badge_color": "green",
-      "desc": "Balance of privacy & affordability",
-      "price": "\u09f37,500/mo",
-      "type": "semi-private",
-      "capacity": 2,
-      "available": 1,
-      "image": "https://images.unsplash.com/photo-1771327811795-6197403af846?w=600"
-    },
-    {
-      "title": "Premium Single",
-      "badge": "Premium",
-      "badge_color": "gold",
-      "desc": "Ultimate privacy & comfort",
-      "price": "\u09f310,500/mo",
-      "type": "premium-single",
-      "capacity": 1,
-      "available": 1,
-      "image": "https://images.unsplash.com/photo-1663811397091-9a13493eff11?w=600"
-    }
-  ],
+  },
+  "stickyButton": {
+    "text": "Book Your Seat",
+    "link": "/rooms",
+    "icon": "Home"
+  },
   "faq": [
     {
       "question": "What is included in the rent?",
