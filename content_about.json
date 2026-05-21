@@ -1,0 +1,15 @@
+{
+  "section": "about",
+  "title": "About SylhetStay",
+  "story": "SylhetStay was founded in 2021 to solve the student housing crisis in Sylhet by offering safe, affordable, and modern accommodations near major universities.",
+  "mission": "To provide the best student living experience in Bangladesh \u2014 one room at a time.",
+  "vision": "A Bangladesh where no student has to worry about where to sleep during their studies.",
+  "established": 2021,
+  "location": "123 Akhalia Road, Sylhet 3100, Bangladesh",
+  "nearby_universities": [
+    "SUST",
+    "SHAHJALAL UNIVERSITY",
+    "LEADING UNIVERSITY",
+    "METROPOLITAN UNIVERSITY"
+  ]
+}

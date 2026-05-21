@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "Shared Dormitory Room",
+    "type": "shared",
+    "description": "Perfect for vibrant community living. Spacious shared room with 4 bunk beds, ideal for students on a budget.",
+    "price": 4500,
+    "capacity": 4,
+    "available_seats": 2,
+    "is_available": true,
+    "floor": 2,
+    "room_number": "201",
+    "size_sqft": 320,
+    "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=600",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600",
+      "https://images.unsplash.com/photo-1522771733994-3190f5a43c5e?w=600"
+    ],
+    "features": [
+      "4 bunk beds",
+      "Shared bathroom",
+      "Study desk per bed",
+      "Wardrobe"
+    ],
+    "amenities": [
+      "WiFi",
+      "Fan",
+      "Storage locker"
+    ],
+    "rating": 4.2,
+    "review_count": 18,
+    "is_popular": false,
+    "created_at": "2026-01-10T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "Semi-Private Twin Room",
+    "type": "semi-private",
+    "description": "The perfect balance of privacy and affordability. Two single beds with shared amenities in a cozy setting.",
+    "price": 7500,
+    "capacity": 2,
+    "available_seats": 1,
+    "is_available": true,
+    "floor": 3,
+    "room_number": "305",
+    "size_sqft": 220,
+    "image": "https://images.unsplash.com/photo-1771327811795-6197403af846?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1771327811795-6197403af846?w=600",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+      "https://images.unsplash.com/photo-1522771733994-3190f5a43c5e?w=600",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600"
+    ],
+    "features": [
+      "2 single beds",
+      "Attached bathroom",
+      "Study desks",
+      "Ceiling fan"
+    ],
+    "amenities": [
+      "WiFi",
+      "Fan",
+      "Wardrobe",
+      "Attached Bath"
+    ],
+    "rating": 4.6,
+    "review_count": 34,
+    "is_popular": true,
+    "created_at": "2026-01-12T08:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "Premium Single Room",
+    "type": "premium-single",
+    "description": "Ultimate privacy and comfort with a fully furnished private room. Ideal for those who demand the best.",
+    "price": 10500,
+    "capacity": 1,
+    "available_seats": 1,
+    "is_available": true,
+    "floor": 4,
+    "room_number": "401",
+    "size_sqft": 180,
+    "image": "https://images.unsplash.com/photo-1663811397091-9a13493eff11?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1663811397091-9a13493eff11?w=600",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+      "https://images.unsplash.com/photo-1522771733994-3190f5a43c5e?w=600",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600"
+    ],
+    "features": [
+      "Private room",
+      "Attached bathroom",
+      "Air conditioning",
+      "Premium furniture"
+    ],
+    "amenities": [
+      "WiFi",
+      "AC",
+      "Wardrobe",
+      "Study Desk",
+      "Attached Bath",
+      "Mini Fridge"
+    ],
+    "rating": 4.8,
+    "review_count": 22,
+    "is_popular": false,
+    "created_at": "2026-01-15T08:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Deluxe Premium Suite",
+    "type": "premium-single",
+    "description": "Our top-tier offering with a spacious layout, en-suite bathroom, and panoramic city view.",
+    "price": 13000,
+    "capacity": 1,
+    "available_seats": 0,
+    "is_available": false,
+    "floor": 5,
+    "room_number": "501",
+    "size_sqft": 240,
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600",
+      "https://images.unsplash.com/photo-1522771733994-3190f5a43c5e?w=600",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600"
+    ],
+    "features": [
+      "King bed",
+      "En-suite bathroom",
+      "Air conditioning",
+      "City view",
+      "Smart TV"
+    ],
+    "amenities": [
+      "WiFi",
+      "AC",
+      "Wardrobe",
+      "Study Desk",
+      "En-suite Bath",
+      "Fridge",
+      "Smart TV"
+    ],
+    "rating": 4.9,
+    "review_count": 11,
+    "is_popular": true,
+    "created_at": "2026-02-01T08:00:00Z"
+  }
+]

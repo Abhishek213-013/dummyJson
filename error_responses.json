@@ -1,0 +1,54 @@
+{
+  "400_bad_request": {
+    "success": false,
+    "message": "Bad request",
+    "errors": {
+      "field": [
+        "The field is required."
+      ]
+    }
+  },
+  "401_unauthorized": {
+    "success": false,
+    "message": "Unauthenticated. Please login.",
+    "data": null
+  },
+  "403_forbidden": {
+    "success": false,
+    "message": "You do not have permission to perform this action.",
+    "data": null
+  },
+  "404_not_found": {
+    "success": false,
+    "message": "Resource not found.",
+    "data": null
+  },
+  "409_conflict": {
+    "success": false,
+    "message": "This email address is already registered.",
+    "data": null
+  },
+  "422_validation_failed": {
+    "success": false,
+    "message": "Validation failed",
+    "errors": {
+      "email": [
+        "The email field is required.",
+        "The email must be a valid email address."
+      ],
+      "password": [
+        "The password must be at least 8 characters."
+      ]
+    }
+  },
+  "429_too_many_requests": {
+    "success": false,
+    "message": "Too many requests. Please try again in 60 seconds.",
+    "retry_after": 60
+  },
+  "500_server_error": {
+    "success": false,
+    "message": "Internal server error. Please try again later.",
+    "data": null
+  }
+}

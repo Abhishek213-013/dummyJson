@@ -1,0 +1,24 @@
+[
+  {
+    "id": 55,
+    "transaction_id": "TXN-SS-20260521-00101",
+    "booking_reference": "SS-2026-00101",
+    "room_name": "Semi-Private Twin Room",
+    "amount": 22500,
+    "currency": "BDT",
+    "payment_method": "VISA-Dutch Bangla",
+    "status": "completed",
+    "paid_at": "2026-05-21T12:00:00Z"
+  },
+  {
+    "id": 41,
+    "transaction_id": "TXN-SS-20260101-00087",
+    "booking_reference": "SS-2026-00087",
+    "room_name": "Shared Dormitory Room",
+    "amount": 18000,
+    "currency": "BDT",
+    "payment_method": "bKash",
+    "status": "completed",
+    "paid_at": "2026-01-01T09:15:00Z"
+  }
+]

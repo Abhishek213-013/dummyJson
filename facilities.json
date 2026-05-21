@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "category": "Living & Comfort",
+    "name": "Air Conditioning",
+    "description": "Climate control in all premium rooms",
+    "icon": "wind",
+    "image": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=600",
+    "available_in": [
+      "premium-single",
+      "semi-private"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "category": "Living & Comfort",
+    "name": "High-Speed WiFi",
+    "description": "Fiber optic 1 Gbps internet throughout the hostel",
+    "icon": "wifi",
+    "image": "https://images.unsplash.com/photo-1544191696-102dbdaeeaa0?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "category": "Living & Comfort",
+    "name": "Natural Lighting",
+    "description": "Large windows in every room for fresh air and sunlight",
+    "icon": "sun",
+    "image": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "category": "Living & Comfort",
+    "name": "Premium Bedding",
+    "description": "Comfortable mattresses and pillows provided",
+    "icon": "bed",
+    "image": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "category": "Dining & Kitchen",
+    "name": "Dining Hall",
+    "description": "Spacious dining area serving 3 meals a day",
+    "icon": "utensils",
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "category": "Dining & Kitchen",
+    "name": "Common Kitchen",
+    "description": "Fully equipped shared kitchen with microwave, stove & utensils",
+    "icon": "coffee",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "category": "Recreation & Fitness",
+    "name": "Fitness Center",
+    "description": "Modern gym equipment open 6 AM \u2013 10 PM",
+    "icon": "dumbbell",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "category": "Recreation & Fitness",
+    "name": "Entertainment Room",
+    "description": "Smart TV, gaming consoles and comfortable seating",
+    "icon": "tv",
+    "image": "https://images.unsplash.com/photo-1489599746744-5bace50f4768?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "category": "Study & Work",
+    "name": "Study Lounge",
+    "description": "Quiet, air-conditioned study environment with desks",
+    "icon": "book-open",
+    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "category": "Study & Work",
+    "name": "Power Backup",
+    "description": "24/7 generator backup for uninterrupted power supply",
+    "icon": "zap",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 11,
+    "category": "Services & Security",
+    "name": "24/7 Security",
+    "description": "CCTV surveillance and on-site security personnel around the clock",
+    "icon": "shield",
+    "image": "https://images.unsplash.com/photo-1580137189272-c9379f8864fd?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  },
+  {
+    "id": 12,
+    "category": "Services & Security",
+    "name": "Laundry Service",
+    "description": "Washing machines and dryers available on every floor",
+    "icon": "washing-machine",
+    "image": "https://images.unsplash.com/photo-1545173168-9f1c6e193c3b?w=600",
+    "available_in": [
+      "shared",
+      "semi-private",
+      "premium-single"
+    ],
+    "is_active": true
+  }
+]

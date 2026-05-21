@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "src": "https://images.unsplash.com/photo-1620332372374-f108c53d2e03?w=1200",
+    "category": "rooms",
+    "title": "Modern Bedroom",
+    "uploaded_at": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "src": "https://images.unsplash.com/photo-1721299417031-de890ff33b26?w=1200",
+    "category": "rooms",
+    "title": "Premium Suite",
+    "uploaded_at": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "src": "https://images.unsplash.com/photo-1753505888770-46be3b748b41?w=1200",
+    "category": "rooms",
+    "title": "Living Area",
+    "uploaded_at": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "src": "https://images.unsplash.com/photo-1753505889211-9cfbac527474?w=1200",
+    "category": "rooms",
+    "title": "Study Room",
+    "uploaded_at": "2026-01-10T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "src": "https://images.unsplash.com/photo-1723259457560-b76d597f709b?w=1200",
+    "category": "common",
+    "title": "Lounge Area",
+    "uploaded_at": "2026-01-12T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "src": "https://images.unsplash.com/photo-1635321349359-333da6bb6da9?w=1200",
+    "category": "common",
+    "title": "Reception",
+    "uploaded_at": "2026-01-12T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "src": "https://images.unsplash.com/photo-1772944780860-e99bd902d59a?w=1200",
+    "category": "common",
+    "title": "Corridor",
+    "uploaded_at": "2026-01-12T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "src": "https://images.unsplash.com/photo-1630694144867-37acec97af5c?w=1200",
+    "category": "dining",
+    "title": "Dining Hall",
+    "uploaded_at": "2026-01-15T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "src": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200",
+    "category": "dining",
+    "title": "Common Kitchen",
+    "uploaded_at": "2026-01-15T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "src": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200",
+    "category": "facilities",
+    "title": "Gym",
+    "uploaded_at": "2026-01-18T00:00:00Z"
+  },
+  {
+    "id": 11,
+    "src": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=1200",
+    "category": "facilities",
+    "title": "Study Lounge",
+    "uploaded_at": "2026-01-18T00:00:00Z"
+  },
+  {
+    "id": 12,
+    "src": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200",
+    "category": "facilities",
+    "title": "Outdoor Garden Area",
+    "uploaded_at": "2026-01-18T00:00:00Z"
+  }
+]

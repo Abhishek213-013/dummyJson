@@ -1,0 +1,55 @@
+{
+  "section": "home",
+  "hero": {
+    "headline": "Your Home Away From Home in Sylhet",
+    "subheadline": "Experience premium student accommodation with cutting-edge amenities, a vibrant community, and an environment designed for success.",
+    "location": "Sylhet, Bangladesh",
+    "cta_primary": "Book Now",
+    "cta_secondary": "Explore Rooms"
+  },
+  "stats": [
+    {
+      "label": "Happy Residents",
+      "value": "500+",
+      "icon": "users"
+    },
+    {
+      "label": "Room Types",
+      "value": "3",
+      "icon": "bed"
+    },
+    {
+      "label": "Internet Speed",
+      "value": "1 Gbps",
+      "icon": "wifi"
+    },
+    {
+      "label": "Years Running",
+      "value": "5+",
+      "icon": "trending-up"
+    }
+  ],
+  "availability_cards": [
+    {
+      "title": "Shared Room",
+      "badge": "4 Seats",
+      "desc": "Perfect for vibrant community living",
+      "price": "\u09f34,500/mo",
+      "type": "shared"
+    },
+    {
+      "title": "Semi-Private",
+      "badge": "Most Popular",
+      "desc": "Balance of privacy & affordability",
+      "price": "\u09f37,500/mo",
+      "type": "semi-private"
+    },
+    {
+      "title": "Premium Single",
+      "badge": "Premium",
+      "desc": "Ultimate privacy & comfort",
+      "price": "\u09f310,500/mo",
+      "type": "premium-single"
+    }
+  ]
+}

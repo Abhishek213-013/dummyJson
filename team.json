@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Abdul Karim",
+    "role": "Hostel Manager",
+    "bio": "15+ years of experience managing student accommodations across Bangladesh.",
+    "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300",
+    "email": "manager@sylhetstay.com",
+    "phone": "+880 1700-000001",
+    "order": 1,
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "name": "Fatema Begum",
+    "role": "Front Desk Supervisor",
+    "bio": "Dedicated to making every resident feel at home from day one.",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300",
+    "email": "frontdesk@sylhetstay.com",
+    "phone": "+880 1700-000002",
+    "order": 2,
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "name": "Rakibul Islam",
+    "role": "Maintenance Head",
+    "bio": "Ensures every room and facility is in perfect working condition at all times.",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300",
+    "email": "maintenance@sylhetstay.com",
+    "phone": "+880 1700-000003",
+    "order": 3,
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "name": "Nusrat Jahan",
+    "role": "Student Affairs Coordinator",
+    "bio": "Your go-to person for any concerns, events, and community activities.",
+    "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300",
+    "email": "affairs@sylhetstay.com",
+    "phone": "+880 1700-000004",
+    "order": 4,
+    "is_active": true
+  }
+]
